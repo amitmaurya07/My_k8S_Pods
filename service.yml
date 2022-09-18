@@ -9,7 +9,7 @@ spec:
   type: NodePort
   selector:
     app: myjavaapp
-    version: 2.6.2
+    version: 2.6.1
   ports:
   - port: 8080 #Container Port Number
     nodePort: 30001 #Access Port Number

@@ -7,9 +7,9 @@ spec:
   project: default
 
   source: 
-    repoURL: https://github.com/amitmaurya07/ArgocCD_Practise/tree/main/Argo_CD%20Files
+    repoURL: https://github.com/amitmaurya07/My_k8S_Pods.git
     targetRevision: HEAD 
-    path: Argo_CD Files 
+    path: Argo_CD Practise 
   destination:
     server: https://kubernetes.default.svc
     namespace: myapp 

@@ -2,7 +2,7 @@ apiVersion: argoproj.io/vlapha1
 kind : Application  
 metadata:
   name: myapp-argo-application  
-  namespcae: argocd 
+  namespace: argocd 
 spec:
   project: default
 
@@ -12,7 +12,7 @@ spec:
     path: Argo_CD Files 
   destination:
     server: https://kubernetes.default.svc
-    namespcae: myapp 
+    namespace: myapp 
 
   syncPolicy:
     syncOptions:
